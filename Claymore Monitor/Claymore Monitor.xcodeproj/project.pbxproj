@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECB4ECF1F8D180A00B30689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4ECE1F8D180A00B30689 /* AppDelegate.swift */; };
+		4ECB4ED11F8D180A00B30689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4ED01F8D180A00B30689 /* ViewController.swift */; };
+		4ECB4ED41F8D180A00B30689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECB4ED21F8D180A00B30689 /* Main.storyboard */; };
+		4ECB4ED61F8D180A00B30689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECB4ED51F8D180A00B30689 /* Assets.xcassets */; };
+		4ECB4ED91F8D180A00B30689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECB4ED71F8D180A00B30689 /* LaunchScreen.storyboard */; };
+		4ECB4EE41F8D180A00B30689 /* Claymore_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4EE31F8D180A00B30689 /* Claymore_MonitorTests.swift */; };
+		4ECB4EEF1F8D180A00B30689 /* Claymore_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4EEE1F8D180A00B30689 /* Claymore_MonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECB4EE01F8D180A00B30689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECB4EC31F8D180900B30689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECB4ECA1F8D180A00B30689;
+			remoteInfo = "Claymore Monitor";
+		};
+		4ECB4EEB1F8D180A00B30689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECB4EC31F8D180900B30689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECB4ECA1F8D180A00B30689;
+			remoteInfo = "Claymore Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECB4ECB1F8D180A00B30689 /* Claymore Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Claymore Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB4ECE1F8D180A00B30689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ECB4ED01F8D180A00B30689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ECB4ED31F8D180A00B30689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECB4ED51F8D180A00B30689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECB4ED81F8D180A00B30689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ECB4EDA1F8D180A00B30689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECB4EDF1F8D180A00B30689 /* Claymore MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Claymore MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB4EE31F8D180A00B30689 /* Claymore_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Claymore_MonitorTests.swift; sourceTree = "<group>"; };
+		4ECB4EE51F8D180A00B30689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECB4EEA1F8D180A00B30689 /* Claymore MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Claymore MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB4EEE1F8D180A00B30689 /* Claymore_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Claymore_MonitorUITests.swift; sourceTree = "<group>"; };
+		4ECB4EF01F8D180A00B30689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECB4EC81F8D180A00B30689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EDC1F8D180A00B30689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EE71F8D180A00B30689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECB4EC21F8D180900B30689 = {
+			isa = PBXGroup;
+			children = (
+				4ECB4ECD1F8D180A00B30689 /* Claymore Monitor */,
+				4ECB4EE21F8D180A00B30689 /* Claymore MonitorTests */,
+				4ECB4EED1F8D180A00B30689 /* Claymore MonitorUITests */,
+				4ECB4ECC1F8D180A00B30689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECB4ECC1F8D180A00B30689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB4ECB1F8D180A00B30689 /* Claymore Monitor.app */,
+				4ECB4EDF1F8D180A00B30689 /* Claymore MonitorTests.xctest */,
+				4ECB4EEA1F8D180A00B30689 /* Claymore MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECB4ECD1F8D180A00B30689 /* Claymore Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB4ECE1F8D180A00B30689 /* AppDelegate.swift */,
+				4ECB4ED01F8D180A00B30689 /* ViewController.swift */,
+				4ECB4ED21F8D180A00B30689 /* Main.storyboard */,
+				4ECB4ED51F8D180A00B30689 /* Assets.xcassets */,
+				4ECB4ED71F8D180A00B30689 /* LaunchScreen.storyboard */,
+				4ECB4EDA1F8D180A00B30689 /* Info.plist */,
+			);
+			path = "Claymore Monitor";
+			sourceTree = "<group>";
+		};
+		4ECB4EE21F8D180A00B30689 /* Claymore MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB4EE31F8D180A00B30689 /* Claymore_MonitorTests.swift */,
+				4ECB4EE51F8D180A00B30689 /* Info.plist */,
+			);
+			path = "Claymore MonitorTests";
+			sourceTree = "<group>";
+		};
+		4ECB4EED1F8D180A00B30689 /* Claymore MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB4EEE1F8D180A00B30689 /* Claymore_MonitorUITests.swift */,
+				4ECB4EF01F8D180A00B30689 /* Info.plist */,
+			);
+			path = "Claymore MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECB4ECA1F8D180A00B30689 /* Claymore Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECB4EF31F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore Monitor" */;
+			buildPhases = (
+				4ECB4EC71F8D180A00B30689 /* Sources */,
+				4ECB4EC81F8D180A00B30689 /* Frameworks */,
+				4ECB4EC91F8D180A00B30689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Claymore Monitor";
+			productName = "Claymore Monitor";
+			productReference = 4ECB4ECB1F8D180A00B30689 /* Claymore Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ECB4EDE1F8D180A00B30689 /* Claymore MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECB4EF61F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore MonitorTests" */;
+			buildPhases = (
+				4ECB4EDB1F8D180A00B30689 /* Sources */,
+				4ECB4EDC1F8D180A00B30689 /* Frameworks */,
+				4ECB4EDD1F8D180A00B30689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECB4EE11F8D180A00B30689 /* PBXTargetDependency */,
+			);
+			name = "Claymore MonitorTests";
+			productName = "Claymore MonitorTests";
+			productReference = 4ECB4EDF1F8D180A00B30689 /* Claymore MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ECB4EE91F8D180A00B30689 /* Claymore MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECB4EF91F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore MonitorUITests" */;
+			buildPhases = (
+				4ECB4EE61F8D180A00B30689 /* Sources */,
+				4ECB4EE71F8D180A00B30689 /* Frameworks */,
+				4ECB4EE81F8D180A00B30689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECB4EEC1F8D180A00B30689 /* PBXTargetDependency */,
+			);
+			name = "Claymore MonitorUITests";
+			productName = "Claymore MonitorUITests";
+			productReference = 4ECB4EEA1F8D180A00B30689 /* Claymore MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECB4EC31F8D180900B30689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gary;
+				TargetAttributes = {
+					4ECB4ECA1F8D180A00B30689 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4ECB4EDE1F8D180A00B30689 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4ECB4ECA1F8D180A00B30689;
+					};
+					4ECB4EE91F8D180A00B30689 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4ECB4ECA1F8D180A00B30689;
+					};
+				};
+			};
+			buildConfigurationList = 4ECB4EC61F8D180900B30689 /* Build configuration list for PBXProject "Claymore Monitor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECB4EC21F8D180900B30689;
+			productRefGroup = 4ECB4ECC1F8D180A00B30689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECB4ECA1F8D180A00B30689 /* Claymore Monitor */,
+				4ECB4EDE1F8D180A00B30689 /* Claymore MonitorTests */,
+				4ECB4EE91F8D180A00B30689 /* Claymore MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECB4EC91F8D180A00B30689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB4ED91F8D180A00B30689 /* LaunchScreen.storyboard in Resources */,
+				4ECB4ED61F8D180A00B30689 /* Assets.xcassets in Resources */,
+				4ECB4ED41F8D180A00B30689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EDD1F8D180A00B30689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EE81F8D180A00B30689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECB4EC71F8D180A00B30689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB4ED11F8D180A00B30689 /* ViewController.swift in Sources */,
+				4ECB4ECF1F8D180A00B30689 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EDB1F8D180A00B30689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB4EE41F8D180A00B30689 /* Claymore_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB4EE61F8D180A00B30689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB4EEF1F8D180A00B30689 /* Claymore_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECB4EE11F8D180A00B30689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECB4ECA1F8D180A00B30689 /* Claymore Monitor */;
+			targetProxy = 4ECB4EE01F8D180A00B30689 /* PBXContainerItemProxy */;
+		};
+		4ECB4EEC1F8D180A00B30689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECB4ECA1F8D180A00B30689 /* Claymore Monitor */;
+			targetProxy = 4ECB4EEB1F8D180A00B30689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ECB4ED21F8D180A00B30689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECB4ED31F8D180A00B30689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECB4ED71F8D180A00B30689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECB4ED81F8D180A00B30689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECB4EF11F8D180A00B30689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ECB4EF21F8D180A00B30689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECB4EF41F8D180A00B30689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN4JXG7VCX;
+				INFOPLIST_FILE = "Claymore Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECB4EF51F8D180A00B30689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN4JXG7VCX;
+				INFOPLIST_FILE = "Claymore Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ECB4EF71F8D180A00B30689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Claymore MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claymore Monitor.app/Claymore Monitor";
+			};
+			name = Debug;
+		};
+		4ECB4EF81F8D180A00B30689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Claymore MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claymore Monitor.app/Claymore Monitor";
+			};
+			name = Release;
+		};
+		4ECB4EFA1F8D180A00B30689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Claymore MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Claymore Monitor";
+			};
+			name = Debug;
+		};
+		4ECB4EFB1F8D180A00B30689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Claymore MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.garynil.Claymore-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Claymore Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECB4EC61F8D180900B30689 /* Build configuration list for PBXProject "Claymore Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB4EF11F8D180A00B30689 /* Debug */,
+				4ECB4EF21F8D180A00B30689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECB4EF31F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB4EF41F8D180A00B30689 /* Debug */,
+				4ECB4EF51F8D180A00B30689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECB4EF61F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB4EF71F8D180A00B30689 /* Debug */,
+				4ECB4EF81F8D180A00B30689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECB4EF91F8D180A00B30689 /* Build configuration list for PBXNativeTarget "Claymore MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB4EFA1F8D180A00B30689 /* Debug */,
+				4ECB4EFB1F8D180A00B30689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECB4EC31F8D180900B30689 /* Project object */;
+}
